@@ -5,7 +5,7 @@ var expressPouchDB = require('express-pouchdb');
 var cors = require('./cors');
 
 var PouchDB  = require('pouchdb-core')
-  .plugin(require('pouchdb-adapter-node-websql'))
+  .plugin(require('pouchdb-adapter-memory'))
   .plugin(require('pouchdb-adapter-http'))
   .plugin(require('pouchdb-replication'))
   .plugin(require('pouchdb-mapreduce'))
