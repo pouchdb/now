@@ -1,10 +1,21 @@
 {
   "name": "now",
   "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
-    "build": "npm install pouchdb-server --no-optional",
-    "start": "pouchdb-server --in-memory -n"
+    "start": "node index.js"
   },
   "author": "Nolan Lawson <nolan@nolanlawson.com>",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "dependencies": {
+    "corser": "^2.0.1",
+    "express": "^4.15.0",
+    "express-pouchdb": "^2.3.6",
+    "pouchdb-adapter-http": "^6.1.2",
+    "pouchdb-adapter-node-websql": "^6.1.2",
+    "pouchdb-core": "^6.1.2",
+    "pouchdb-find": "^0.10.5",
+    "pouchdb-mapreduce": "^6.1.2",
+    "pouchdb-replication": "^6.1.2"
+  }
 }

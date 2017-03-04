@@ -1,5 +1,8 @@
 {
   "log": {
     "file": "/dev/null"
+  },
+  "couchdb": {
+    "uuid": "5999ef05-bf4c-4593-a573-86ef573f7e4d"
   }
 }
