@@ -6,6 +6,6 @@ A very small [now](http://now.sh/) app to quickly set up a publicly-available, i
 ## Usage
 
     npm install -g now
-    now nolanlawson/now
+    now pouchdb/now
 
 Then open up `https://now-<id>.now.sh/_utils` in a browser to check that it's working.
