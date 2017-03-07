@@ -1,6 +1,8 @@
 pouchdb now
 =======
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/pouchdb/now.svg)](https://greenkeeper.io/)
+
 A very small [now](http://now.sh/) app to quickly set up a publicly-available, in-memory PouchDB Server.
 
 ## Usage
